@@ -67,5 +67,4 @@ def floodstat_reivew():
     return json_reviews
 
 if __name__ == "__main__":
-    update_db('flood_stat')
     app.run(host='0.0.0.0',port=5000,debug=True)
